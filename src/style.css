@@ -124,12 +124,12 @@ background-color: #b82e30;
 text-decoration: none;
 }
 
-/*Recetas*/
+/*Categorías-recetas*/
 .grid-categorias {
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(2, 1fr);
 gap: 20px;
-margin-top: 30px;
+margin-top: 80px;
 }
 
 .tarjeta {
@@ -164,6 +164,8 @@ margin-bottom: 10px;
 /*Recetas*/
 .detail-header {
 margin-bottom: 30px;
+padding: 20px 20px;
+border-radius: 12px;
 }
 
 .detail-featured-img {
@@ -187,9 +189,17 @@ font-size: 16px;
 
 .detail-gallery {
 display: grid;
-grid-template-columns: repeat(3, 1fr);
+grid-template-columns: repeat(1, 1fr);
 gap: 15px;
 margin: 30px 0;
+}
+
+.video h3 {
+    padding-bottom: 20px;
+}
+
+.video p {
+    padding-bottom: 12px;
 }
 
 .detail-gallery img {
@@ -199,23 +209,18 @@ object-fit: cover;
 border-radius: 6px;
 }
 
-.video-container {
-position: relative;
-padding-bottom: 56.25%;
-height: 0;
-overflow: hidden;
-max-width: 100%;
-border-radius: 8px;
-margin-top: 15px;
+.detail-gallery figcaption {
+    border-bottom: 3px solid #2c3e50;
 }
 
-.video-container iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-border: 0;
+.incrustado iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.incrustado figcaption {
+    font-size: 1.2em;
 }
 
 /*Links*/
@@ -227,7 +232,8 @@ border-top: 1px solid #e2e8f0;
 border-right: 1px solid #e2e8f0;
 border-bottom: 1px solid #e2e8f0;
 border-radius: 0 8px 8px 0;
-margin-bottom: 25px;
+margin-top: 40px;
+margin-bottom: 20px;
 }
 
 .links-list {
