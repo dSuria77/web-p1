@@ -234,9 +234,26 @@ footer {
   margin-bottom: 10px;
 }
 
-@media (width <= 768px) {
-  .grid-categories, .receta-pasos {
+@media (width <= 820px) {
+  .recetas h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .grid-categories {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .receta-content {
+    padding: 0 20px;
+  }
+
+  .receta-pasos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .links-content {
+    padding: 0 20px;
   }
 }
 
@@ -251,12 +268,37 @@ footer {
     gap: 10px;
   }
 
-  .grid-categorias, .receta-pasos {
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero a {
+    margin-bottom: 20px;
+  }
+
+  .recetas h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .recetas p {
+    padding: 0 20px;
+  }
+
+  .grid-categorias {
     grid-template-columns: 1fr;
   }
 
-  .hero h2 {
-    font-size: 24px;
+  .receta-content {
+    padding: 0 20px;
+  }
+
+  .receta-pasos {
+    grid-template-columns: 1fr;
+  }
+
+  .links-content {
+    padding: 0 20px;
   }
 }
 /*# sourceMappingURL=web-p1.2cdaf7bc.css.map */
