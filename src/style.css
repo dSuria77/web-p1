@@ -162,13 +162,13 @@ margin-bottom: 10px;
 }
 
 /*Recetas*/
-.detail-header {
+.receta-header {
 margin-bottom: 30px;
 padding: 20px 20px;
 border-radius: 12px;
 }
 
-.detail-featured-img {
+.receta-img {
 width: 100%;
 max-height: 400px;
 object-fit: cover;
@@ -176,18 +176,18 @@ border-radius: 8px;
 margin-top: 15px;
 }
 
-.detail-content {
+.receta-content {
 display: flex;
 flex-direction: column;
 gap: 20px;
 }
 
-.detail-text p {
+.receta-text p {
 margin-bottom: 15px;
 font-size: 16px;
 }
 
-.detail-gallery {
+.receta-pasos {
 display: grid;
 grid-template-columns: repeat(1, 1fr);
 gap: 15px;
@@ -202,14 +202,14 @@ margin: 30px 0;
     padding-bottom: 12px;
 }
 
-.detail-gallery img {
+.receta-pasos img {
 width: 100%;
 height: 200px;
 object-fit: cover;
 border-radius: 6px;
 }
 
-.detail-gallery figcaption {
+.receta-pasos figcaption {
     border-bottom: 3px solid #2c3e50;
 }
 
@@ -252,7 +252,7 @@ margin-bottom: 10px;
 grid-template-columns: repeat(2, 1fr);
 }
 
-.detail-gallery {
+.receta-pasos {
 grid-template-columns: repeat(2, 1fr);
 }
 }
@@ -273,7 +273,7 @@ gap: 10px;
 grid-template-columns: 1fr;
 }
 
-.detail-gallery {
+.receta-pasos {
 grid-template-columns: 1fr;
 }
 
