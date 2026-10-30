@@ -9,7 +9,7 @@
     "start": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel",
-    "parcel:build": "parcel build",
+    "parcel:build": "npx parcel build src/*.html",
     "clean": "rimraf dist .parcel-cache"
   },
   "keywords": [],
